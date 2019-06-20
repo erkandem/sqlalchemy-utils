@@ -27,10 +27,8 @@ matrix:
       - "TOXENV=py36"
   - python: 3.7
     env:
-      - "TOXENV=py36"
-  - python: 3.7
-    env:
-      - "TOXENV=lint"
+      - "TOXENV=py37"
+
 
 install:
   - source $TRAVIS_BUILD_DIR/.travis/install_mssql.sh
